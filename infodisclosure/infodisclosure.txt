@@ -1,3 +1,15 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+
+
+The vulnerability in the insecure version arises from directly using user-provided values 
+in the MongoDB query, making it susceptible to NoSQL injection attacks. This allows attackers 
+to manipulate input to execute malicious queries
+
 Which CIA property does tampering violate?
+integrity
+
+
 What additional security mechanisms can you incorporate?
+Additional security measures include input validation, parameterized queries, authentication, 
+security headers, and logging and monitoring. 

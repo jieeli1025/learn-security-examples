@@ -1,0 +1,12 @@
+
+Briefly explain the vulnerability and why the secure version prevents the
+vulnerability
+
+The insecure version doesn't sanitize user input, making it 
+vulnerable to cross-site scripting (XSS) attacks. In contrast, 
+the secure version sanitizes input using the escapeHTML() function, 
+preventing XSS vulnerabilities by escaping special characters.
+
+
+Which CIA property does tampering violate?
+Integrity 

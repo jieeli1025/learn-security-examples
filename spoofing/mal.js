@@ -7,7 +7,8 @@ const bodyParser = require('body-parser');
 
 // Assume the server is malicious. Doesn't do anything useful. Only changes cookies.
 app.get("/malhome", (req, res) => {
-  res.send(`<h1> You Won! </h1><script> console.log("Session = " + document.cookie); </script>`)
+  res.send(`<h1> You Won! </h1>
+  <script> console.log("Session = " + document.cookie); </script>`)
 })
 
 
