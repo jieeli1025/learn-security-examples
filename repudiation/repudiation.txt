@@ -1,2 +1,17 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+Vulnerability Explanation:
+The vulnerability relates to a lack of proper logging and auditing mechanisms, allowing users to perform actions without leaving a trace. This can lead to repudiation issues, where users deny their actions, making it difficult to prove their accountability.
+
+Secure Version's Prevention:
+
+The secure version implements comprehensive logging and auditing functionalities to record all user actions and system events.
+By maintaining detailed logs, the secure version can provide irrefutable evidence of user actions, reducing the possibility of repudiation.
+Additional Security Mechanisms:
+
+Digital Signatures: Implement digital signatures on logged events to ensure their integrity and authenticity, making it harder for users to tamper with or deny their actions.
+Immutable Logs: Store logs in immutable formats or systems to prevent unauthorized modifications or deletions.
+Chain of Custody: Establish a chain of custody for sensitive operations, ensuring that each action is logged and attributed to the responsible user.
+Real-Time Monitoring: Employ real-time monitoring tools to detect and alert on suspicious activities, enabling timely responses to potential incidents.
+User Training and Awareness: Educate users about the importance of accountability and the consequences of repudiation, promoting a culture of responsibility within the organization. 
